@@ -43,7 +43,7 @@ namespace Assignment_4
         // PUBLIC METHODS 
         public override string ToString()
         {
-            return string.Format("Name: {0}  Diameter: {1}  Mass: {2}", _name, _diameter, _mass);
+            return string.Format("Name: {0}  Diameter: {1} Km  Mass: {2} Kg", _name, _diameter, _mass);
         }
 
     }
